@@ -74,3 +74,7 @@ jetbrains://${toolTag}/navigate/reference?project=${project}&path=${filePath}:${
 ```
 jetbrains://web-storm/navigate/reference?project=alfred-workflows&path=README-zh.md:25:10
 ```
+
+
+## 相关文档
+- https://github.com/JetBrains/toolbox-browser-extension
