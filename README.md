@@ -55,3 +55,15 @@ jetbrains://${toolTag}/checkout/git?checkout.repo=${cloneUrl}&idea.required.plug
 ```
 jetbrains://webstorm/checkout/git?checkout.repo=https://github.com/alanhg/alfred-workflows&idea.required.plugins.id=Git4Idea
 ```
+
+
+## 打开某仓库，某文件及移动到对应行列位置
+
+```
+jetbrains://${toolTag}/navigate/reference?project=${project}&path=${filePath}:${lineIndex}:${columnIndex}
+```
+
+例子
+```
+jetbrains://webstorm/navigate/reference?project=alfred-workflows&path=${filePath}:${lineIndex}:${columnIndex}
+```
