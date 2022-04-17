@@ -1,5 +1,10 @@
 # jetbrains-url-schemes
 链接跳转到JB IDE且自动执行某个动作
+
+## Requirement
+- 安装JetBrains Toolbox
+- 安装需要打开的JB家IDE，比如WebStorm
+
 ## JB各IDE-toolTag说明
 
 scheme链接中使用tag
