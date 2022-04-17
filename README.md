@@ -11,8 +11,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# jetbrains-url-schemes
-链接跳转到JB IDE且自动执行某个动作
+> 链接跳转到JB IDE且自动执行某个动作
 
 ## Requirement
 - 安装JetBrains Toolbox
