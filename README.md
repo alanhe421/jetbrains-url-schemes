@@ -52,13 +52,15 @@ scheme链接中使用tag
 
 ## checkout某个仓库，使用对应对应IDE打开
 
+cloneUrl支持HTTPS/SSH
+
 ```
 jetbrains://${toolTag}/checkout/git?checkout.repo=${cloneUrl}&idea.required.plugins.id=Git4Idea
 ```
 
 例子
 ```
-jetbrains://webstorm/checkout/git?checkout.repo=https://github.com/alanhg/alfred-workflows&idea.required.plugins.id=Git4Idea
+jetbrains://web-storm/checkout/git?checkout.repo=git@github.com:alanhg/alfred-workflows.git&idea.required.plugins.id=Git4Idea
 ```
 
 
@@ -70,5 +72,5 @@ jetbrains://${toolTag}/navigate/reference?project=${project}&path=${filePath}:${
 
 例子
 ```
-jetbrains://webstorm/navigate/reference?project=alfred-workflows&path=${filePath}:${lineIndex}:${columnIndex}
+jetbrains://web-storm/navigate/reference?project=alfred-workflows&path=README-zh.md:25:10
 ```
