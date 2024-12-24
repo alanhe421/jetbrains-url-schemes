@@ -57,6 +57,10 @@ scheme链接中使用tag
   goland: {
     name: 'GoLand',
     tag: 'goland'
+  },
+  rustrover: {
+    name: "RustRover",
+    tag: "rustrover",
   }
 }
 ```
